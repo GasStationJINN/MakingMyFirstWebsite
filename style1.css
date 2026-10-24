@@ -1,0 +1,210 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Side bar links */
+.page1_link_container{
+    position : fixed;
+    top:100px;
+    right:0px;
+    background-color: rgba(28,34,45,0.2);
+    height:100px;
+    width:100px;
+    border-radius: 15px 0px 0px 15px;
+    outline:1.5px solid rgb(28,34,45)
+}
+.page2_link_container{
+    position : fixed;
+    top:210px;
+    right:0px;
+    background-color: rgba(28,34,45,0.2);
+    height:100px;
+    width:100px;
+    border-radius: 15px 0px 0px 15px;
+    outline:1.5px solid rgb(28,34,45)
+}
+.page3_link_container{
+    position : fixed;
+    top:320px;
+    right:0px;
+    background-color: rgba(28,34,45,0.2);
+    height:100px;
+    width:100px;
+    border-radius: 15px 0px 0px 15px;
+    outline:1.5px solid rgb(28,34,45)
+}
+
+/* FIRST PAGE */
+.main_container{
+    justify-content: center;
+    background-color: #8699a8;
+    width : 85%; 
+    height : 80vh;
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-left : 50px;
+    margin-right: 100px;
+    border-radius : 20px 20px 0px 0px;
+    padding:20px 20px 20px 20px;
+}
+
+/* Head bar */
+table.head-table {
+    font-size:16px;
+    outline: 1.5px solid;
+    background-color: #e2e2e2;
+    margin : -10px -10px 10px -10px;
+    width: 100%;
+    border-radius:100px;
+}
+.head-table , th,td{
+    width:33%;
+    border-spacing : 0px;
+    border-radius : 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Main Boxes */
+.page1_mainbox1_container{
+    display:flex;
+}
+.page1_mainbox2_container{
+    display:flex;
+}
+.page1_box1_container{
+    background-color : #1c222d;
+    height : 500px;
+    width:33%;
+    outline: 1.5px solid #e2e2e2;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.profile_sona_container{
+    background-color:#bd9797;
+    height:220px;
+    width:95%;
+    margin:40px 10px 0px 10px;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+
+.page1_box2_container{
+    background-color: rgba(28,34,45,0.5);
+    height:250px;
+    width:33%;
+    margin-left:1.5px;
+    outline: 1.5px solid #e2e2e2;
+}
+.page1_box3_container{
+    background-color: rgba(28,34,45,0.5);
+    height:250px;
+    width:33%;
+    margin-left:1.5px;
+    outline: 1.5px solid #e2e2e2;
+}
+
+/*INTEREST*/
+.page1_box5_container{
+    background-color: #1c222d;
+    outline: 1.5px solid #e2e2e2;
+    margin: -230px 0px 10px 25px ;
+    padding: 0px 10px 20px;
+    height : 490px;
+    width : 66%;
+    justify-content: center;
+    align-items: center;
+}
+.interest_container{
+    background-color: #759fbb;
+    outline: 1.5px solid #e2e2e2;
+    width:100%;
+    height:40px;
+    margin: 20px 0px 0px 0px;
+}
+
+.page1_box5_box1_container{
+    display:flex;
+    justify-content:center;
+}
+.page1_box5_box2_container{
+    display:flex;
+    justify-content:center;
+    margin:20px;
+}
+
+.media_games_container{
+    background-color:#732b29;
+    outline : 1.5px solid #e2e2e2;
+    width:50%;
+    height:350px;
+    margin:10px;
+    border-radius:30px;
+}
+.hobbies_inspirations_container{
+    background-color:#732b29;
+    outline : 1.5px solid #e2e2e2;
+    border-radius:30px;
+    width:50%;
+    height:350px;
+    margin:10px;
+}
+
+
+/* Personal links */
+.page1_box4_container{
+    justify-content: center;
+    display:flex;
+    margin:1.5px 0px 0px 0px;
+    background-color : #1c222d;
+    height : 280px;
+    width:34%;
+    outline: 1.5px solid #e2e2e2;
+}
+.page1_box4_box1_container{
+    background-color: #732b29;
+    width:20%;
+    height:100%;
+    outline : 1.5px solid #e2e2e2;
+}
+.page1_box4_box2_container{
+    background-color: #759fbb;
+    width:20%;
+    height:100%;
+    outline : 1.5px solid #e2e2e2;
+}
+.page1_box4_box3_container{
+    background-color: #732b29;
+    width:20%;
+    height:100%;
+    outline : 1.5px solid #e2e2e2;
+}
+.page1_box4_box4_container{
+    background-color: #bd9797;
+    width:20%;
+    height:100%;
+    outline : 1.5px solid #e2e2e2;
+}
+.page1_box4_box5_container{
+    background-color:#732b29;
+    width:20%;
+    height:100%;
+    outline : 1.5px solid #e2e2e2;
+}
+.page1_box4_box6_container{
+    background-color: #759fbb;
+    width:20%;
+    height:100%;
+    outline : 1.5px solid #e2e2e2;
+}
+.page1_box4_box7_container{
+    background-color: #732b29;
+    width:20%;
+    height:100%;
+    outline : 1.5px solid #e2e2e2;
+
+}
+

@@ -1,0 +1,197 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Side bar links */
+.page1_link_container{
+    position : fixed;
+    top:100px;
+    right:0px;
+    background-color: rgba(28,34,45,0.2);
+    height:100px;
+    width:100px;
+    border-radius: 15px 0px 0px 15px;
+    outline:1.5px solid rgb(28,34,45)
+}
+.page2_link_container{
+    position : fixed;
+    top:210px;
+    right:0px;
+    background-color: rgba(28,34,45,0.2);
+    height:100px;
+    width:100px;
+    border-radius: 15px 0px 0px 15px;
+    outline:1.5px solid rgb(28,34,45)
+}
+.page3_link_container{
+    position : fixed;
+    top:320px;
+    right:0px;
+    background-color: rgba(28,34,45,0.2);
+    height:100px;
+    width:100px;
+    border-radius: 15px 0px 0px 15px;
+    outline:1.5px solid rgb(28,34,45)
+}
+
+/* FIRST PAGE */
+.main_container{
+    justify-content: center;
+    background-color: #8699a8;
+    width : 85%; 
+    height : 80vh;
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-left : 50px;
+    margin-right: 100px;
+    border-radius : 20px 20px 0px 0px;
+    padding:20px 20px 20px 20px;
+}
+.e_container{
+    display:flex;
+}
+/*left*/
+.box1_container{
+    margin:0px 40px 0px 20px;
+}
+.box1_box_1_container{
+    display:flex;
+   
+}
+.box1_box1_box1_container{
+    background-color:#1c222d;
+    height:600px;
+    width:250px;
+    outline: 1.5px solid #e2e2e2;
+    margin:200px 0px 0px 0px;
+    justify-content:center;    
+    display:flex;
+    flex-direction: column;
+}
+.circle_dot{
+    background-color: #e2e2e2;
+    outline:1.5px solid #1c222d;
+    height:250px;
+    width: 100%;
+    margin:-600px 0px 0px 0px;
+    border-radius:50%;
+}
+.redbar_container{
+    background-color:#732b29 ;
+    height:30px;
+    width:100%;
+    outline: 1.5px solid #e2e2e2;
+    margin:20px 0px 0px 0px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+/*right*/
+.box2_container{
+    background-color: rgba(28,34,45,0.5);
+    height: 760px;
+    width:70%;
+    outline: 1.5px solid #e2e2e2;
+    margin:40px 0px 0px 0px ;
+}
+
+.secondbox_container{
+    margin:0px;
+}
+.firstbox_container{
+    display:flex;
+    flex-direction:horizontal;
+    margin:-32% 0px 0px 0px;
+}
+
+.box2_box1_container{
+    background-color:#b27f7f;
+    outline:1.5px solid #e2e2e2;
+    height:84.5%;
+    width:33%;
+    margin:70px 20px 20px 40px;
+    align-items:center;
+}
+.box2_box1_box1_container{
+    background-color:#732b29 ;
+    height:40px;
+    width:30%;
+    outline: 1.5px solid #e2e2e2;
+    border-radius: 20px;
+    margin: -10px 0px 0px 0px;
+    overflow:hidden;
+}
+.box2_box1_box2_container{
+    background-color:#732b29 ;
+    height:40px;
+    width:30%;
+    outline: 1.5px solid #e2e2e2;
+    border-radius: 20px;
+    margin: 200px 0px 0px 0px;
+    overflow:hidden;
+}
+.box2_box2_container{
+    background-color:#8699a8;
+    height:84.5%;
+    width:80%;
+    margin:70px 40px 0px 20px;
+    outline: 1.5px solid #e2e2e2;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+}
+
+.date_container{
+    background-color:#732b29 ;
+    height:40px;
+    width:30%;
+    outline: 1.5px solid #e2e2e2;
+    margin:30px 0px -50% 80%;
+    align-content:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+}
+.box2_box2_box2_container{
+    display:flex;
+    margin: 50% -50px 0px 0px;
+}
+
+.arrow_container{
+    background-color:#732b29;
+    outline: 1.5px solid #e2e2e2;
+    height:50px;
+    width:50px;
+    margin:560px 0px 0px 43%;
+    overflow:hidden;
+    
+}
+.pagenumber_container{
+    background-color:#b27f7f;
+    outline:1.5px solid #e2e2e2;
+    height: 40px;
+    width:120px;
+    margin:560px 0px 0px 190px;
+    border-radius:50px;
+    overflow:hidden;
+}
+
+/* Head bar */
+table.head-table {
+    font-size:16px;
+    outline: 1.5px solid;
+    background-color: #e2e2e2;
+    margin : -10px -10px 10px -10px;
+    width: 100%;
+    border-radius:100px;
+}
+.head-table , th,td{
+    width:33%;
+    border-spacing : 0px;
+    border-radius : 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
